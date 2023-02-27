@@ -68,9 +68,9 @@ local C = require("line.component"):new("line.components.example_lsp", {
             self.value = table.concat(filtered, ", ")
         end,
 	},
-    data = {
-        ignored = { ["null-ls"] = true } 
-    },
+    	data = {
+        	ignored = { ["null-ls"] = true } 
+    	},
 })
 
 return C
